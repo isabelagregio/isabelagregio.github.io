@@ -2,195 +2,129 @@
 
 Welcome to my portfolio!
 
-I am an engineering student and software developer interested in artificial
-intelligence, machine learning, backend development, embedded systems and
-computer architecture.
+I am a Computer Engineering student and software developer interested in artificial intelligence, machine learning, backend development, embedded systems, and computer architecture.
 
-I enjoy transforming theoretical concepts into practical projects, from
-machine learning applications and APIs to low-level programming and processor
-experiments.
+I enjoy transforming theoretical concepts into practical projects, from machine learning applications and APIs to low-level programming and processor experiments.
 
----
+## Education
+
+### Polytechnic School of the University of São Paulo (POLI-USP)
+
+B.Sc. in Computer Engineering — Expected graduation: July 2027.
+
+### Polytechnique Montréal
+
+Incoming exchange student — August to December 2026.
+
+## Contact
+
+- **LinkedIn:** [linkedin.com/in/isabela-gregio](https://www.linkedin.com/in/isabela-gregio/)
+- **GitHub:** [github.com/isabelagregio](https://github.com/isabelagregio)
+- **Email:** [isabela.gregio@usp.br](mailto:isabela.gregio@usp.br)
 
 ## About Me
 
-- 🎓 Engineering student at the University of São Paulo
-- 🌎 Incoming exchange student at Polytechnique Montréal
-- 💻 Interested in software engineering, artificial intelligence and embedded systems
-- 🧠 Currently studying machine learning, computer architecture and operating systems
-- 🌱 Always looking for opportunities to learn and build new projects
-
----
+- 💻 Interested in software engineering, artificial intelligence, and embedded systems
+- 🧠 Currently studying machine learning, computer architecture, and operating systems
+- 🌱 Always looking for opportunities to learn, collaborate, and build new projects
 
 ## Technical Skills
 
-### Programming Languages
-
-- Python
-- C
-- C++
-- Assembly
-- SQL
-- JavaScript
-- TypeScript
-
-### Artificial Intelligence and Data Science
-
-- TensorFlow
-- Keras
-- Scikit-learn
-- Pandas
-- NumPy
-- Deep Learning
-- Natural Language Processing
-- Computer Vision
-- Recommendation Systems
-
-### Backend and Web Development
-
-- FastAPI
-- Streamlit
-- REST APIs
-- HTML and CSS
-- Jinja2
-- PostgreSQL
-- Redis
-
-### Tools and Technologies
-
-- Git and GitHub
-- Docker
-- Linux
-- Jupyter Notebook
-- Plotly
-- ESP32
-- Raspberry Pi
-
----
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Programming Languages</h3>
+      <p>Python · C · C++ · Assembly · SQL · JavaScript · TypeScript</p>
+      <h3>AI and Data Science</h3>
+      <p>TensorFlow · Keras · Scikit-learn · Pandas · NumPy · Deep Learning · Natural Language Processing · Computer Vision · Recommendation Systems</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Backend and Web Development</h3>
+      <p>FastAPI · Streamlit · REST APIs · HTML · CSS · Jinja2 · PostgreSQL · Redis</p>
+      <h3>Tools and Technologies</h3>
+      <p>Git · GitHub · Docker · Linux · Jupyter Notebook · Plotly · ESP32 · Raspberry Pi</p>
+    </td>
+  </tr>
+</table>
 
 ## Featured Projects
 
-### 🍳 Recipe AI
+### 🍳 Recipe AI — 🚧 In Development
 
-An intelligent recipe search and recommendation application that identifies
-ingredients from images and recommends recipes based on the detected food.
+An intelligent recipe search and recommendation application that identifies ingredients from images and recommends recipes based on the detected food.
 
-The project includes an ingredient classification model trained with
-MobileNetV2, a recipe recommendation system using the Nearest Neighbors
-algorithm, and an interactive interface built with Streamlit.
+The project combines an ingredient classification model trained with MobileNetV2, a recipe recommendation system based on the Nearest Neighbors algorithm, and an interactive interface built with Streamlit.
 
-**Technologies:** Python, TensorFlow, Keras, MobileNetV2, Scikit-learn,
-Streamlit, Pandas and NumPy.
+**Technologies:** Python, TensorFlow, Keras, MobileNetV2, Scikit-learn, Streamlit, Pandas, and NumPy.
 
-[View repository](https://github.com/isabelagregio/recipe-ai)
+[View repository](REPLACE_WITH_RECIPE_AI_REPOSITORY_URL)
 
 ---
 
 ### 😊 Emotion Detection API
 
-A web application that detects emotions in text using a Bidirectional LSTM
-neural network.
+A web application that detects emotions in text using a Bidirectional LSTM neural network.
 
-The model classifies text into six different emotions: fear, anger, love,
-sadness, surprise and joy. The application provides a FastAPI backend, a simple
-HTML interface using Jinja2 and Docker support.
+The model classifies text into six emotions: fear, anger, love, sadness, surprise, and joy. The application provides a FastAPI backend, an HTML interface built with Jinja2, and Docker support.
 
-**Technologies:** Python, FastAPI, TensorFlow, Keras, Bidirectional LSTM,
-Jinja2, Docker, Pandas and NumPy.
+**Technologies:** Python, FastAPI, TensorFlow, Keras, Bidirectional LSTM, Jinja2, Docker, Pandas, and NumPy.
 
-[View repository](https://github.com/isabelagregio/tweet-emotion-recognition)
+[View repository](REPLACE_WITH_EMOTION_DETECTION_REPOSITORY_URL)
 
 ---
 
 ### 📈 Stock Price Prediction
 
-A stock price prediction application that downloads historical market data and
-compares actual prices with predictions generated by a trained neural network.
+A stock price prediction application that downloads historical market data and compares actual prices with predictions generated by a trained neural network.
 
-Users can choose a stock symbol and date range through a Streamlit interface.
-The application retrieves data with yfinance and displays interactive
-prediction charts with Plotly.
+Users can select a stock symbol and date range through a Streamlit interface. The application retrieves data with yfinance and presents interactive prediction charts with Plotly.
 
-**Technologies:** Python, Keras, Streamlit, yfinance, Scikit-learn, Pandas,
-NumPy and Plotly.
+**Technologies:** Python, Keras, Streamlit, yfinance, Scikit-learn, Pandas, NumPy, and Plotly.
 
-[View repository](https://github.com/isabelagregio/stock-price-prediction)
+[View repository](REPLACE_WITH_STOCK_PREDICTION_REPOSITORY_URL)
 
 ---
 
-### 🩺 OncoTrack
+### 🩺 OncoTrack — 🚧 In Development
 
-An AI-powered application designed to support the monitoring and follow-up of
-patients undergoing cancer treatment.
+An AI-powered application designed to support the monitoring and follow-up of patients undergoing cancer treatment.
 
-The repository contains both frontend and backend components, with most of the
-application developed in TypeScript.
+The project includes frontend and backend components, with most of the application developed in TypeScript.
 
-**Technologies:** TypeScript, JavaScript, frontend development and backend
-development.
+**Technologies:** TypeScript, JavaScript, frontend development, and backend development.
 
-[View repository](https://github.com/isabelagregio/app-development-project)
+[View repository](REPLACE_WITH_ONCOTRACK_REPOSITORY_URL)
 
 ---
 
 ### ⚙️ Processor Laboratory
 
-A collection of processor laboratory experiments involving low-level
-programming, computer architecture and hardware-related concepts.
+A collection of processor laboratory experiments involving low-level programming, computer architecture, and hardware-related concepts.
 
-The repository includes exercises and experiments developed using C, C++,
-Assembly and HTML.
+**Technologies:** C, C++, Assembly, HTML, and computer architecture.
 
-**Technologies:** C, C++, Assembly, HTML and computer architecture.
-
-[View repository](https://github.com/isabelagregio/PCS3732-laboratorio-processadores)
+[View repository](REPLACE_WITH_PROCESSOR_LAB_REPOSITORY_URL)
 
 ---
 
 ### 🤖 Deep Reinforcement Learning
 
-A collection of experiments and notebooks focused on deep reinforcement
-learning concepts and algorithms.
+A collection of experiments and notebooks focused on deep reinforcement learning concepts and algorithms.
 
-**Technologies:** Python, Jupyter Notebook, machine learning and reinforcement
-learning.
+**Technologies:** Python, Jupyter Notebook, machine learning, and reinforcement learning.
 
-[View repository](https://github.com/isabelagregio/Deep-Reinforcement-Learning)
+[View repository](REPLACE_WITH_DEEP_RL_REPOSITORY_URL)
 
 ---
 
 ### 🔐 Cybersecurity Experiments
 
-A collection of practical cybersecurity experiments developed mainly with
-Python and Jupyter Notebook.
+A collection of practical cybersecurity experiments developed mainly with Python and Jupyter Notebook.
 
-**Technologies:** Python, Jupyter Notebook and cybersecurity.
+**Technologies:** Python, Jupyter Notebook, and cybersecurity.
 
-[View repository](https://github.com/isabelagregio/Cybersecurity_experiments)
-
----
-
-## Education
-
-### University of São Paulo
-
-Engineering undergraduate student.
-
-### Polytechnique Montréal
-
-Incoming exchange student.
-
----
-
-## Contact
-
-- GitHub: [github.com/isabelagregio](https://github.com/isabelagregio)
-- LinkedIn: [Add your LinkedIn profile](YOUR_LINKEDIN_URL)
-- Email: [Add your email](mailto:YOUR_EMAIL)
-
----
+[View repository](REPLACE_WITH_CYBERSECURITY_REPOSITORY_URL)
 
 ## Explore My Work
 
-You can find all my public repositories on my
-[GitHub profile](https://github.com/isabelagregio?tab=repositories).
+You can find all my public repositories on my [GitHub profile](https://github.com/isabelagregio).

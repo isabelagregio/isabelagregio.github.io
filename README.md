@@ -2,7 +2,7 @@
 
 Welcome to my portfolio!
 
-I am a Computer Engineering student and software developer interested in artificial intelligence, machine learning, backend development, embedded systems, and computer architecture.
+I am a Computer Engineering student interested in artificial intelligence, machine learning data analysis and software engineering.
 
 I enjoy transforming theoretical concepts into practical projects, from machine learning applications and APIs to low-level programming and processor experiments.
 
@@ -10,7 +10,7 @@ I enjoy transforming theoretical concepts into practical projects, from machine 
 
 ### Polytechnic School of the University of São Paulo (POLI-USP)
 
-B.Sc. in Computer Engineering — Expected graduation: July 2027.
+B.Sc. in Computer Engineering — Expected graduation: December 2027.
 
 ### Polytechnique Montréal
 
@@ -24,7 +24,7 @@ Incoming exchange student — August to December 2026.
 
 ## About Me
 
-- 💻 Interested in software engineering, artificial intelligence, and embedded systems
+- 💻 Interested in data science, artificial intelligence, and neural networks
 - 🧠 Currently studying machine learning, computer architecture, and operating systems
 - 🌱 Always looking for opportunities to learn, collaborate, and build new projects
 
@@ -49,7 +49,7 @@ Incoming exchange student — August to December 2026.
 
 ## Featured Projects
 
-### 🍳 Recipe AI — 🚧 In Development
+### 🍳 Recipe AI
 
 An intelligent recipe search and recommendation application that identifies ingredients from images and recommends recipes based on the detected food.
 
@@ -57,19 +57,7 @@ The project combines an ingredient classification model trained with MobileNetV2
 
 **Technologies:** Python, TensorFlow, Keras, MobileNetV2, Scikit-learn, Streamlit, Pandas, and NumPy.
 
-[View repository](REPLACE_WITH_RECIPE_AI_REPOSITORY_URL)
-
----
-
-### 😊 Emotion Detection API
-
-A web application that detects emotions in text using a Bidirectional LSTM neural network.
-
-The model classifies text into six emotions: fear, anger, love, sadness, surprise, and joy. The application provides a FastAPI backend, an HTML interface built with Jinja2, and Docker support.
-
-**Technologies:** Python, FastAPI, TensorFlow, Keras, Bidirectional LSTM, Jinja2, Docker, Pandas, and NumPy.
-
-[View repository](REPLACE_WITH_EMOTION_DETECTION_REPOSITORY_URL)
+[View repository](https://github.com/isabelagregio/recipe-ai)
 
 ---
 
@@ -81,7 +69,17 @@ Users can select a stock symbol and date range through a Streamlit interface. Th
 
 **Technologies:** Python, Keras, Streamlit, yfinance, Scikit-learn, Pandas, NumPy, and Plotly.
 
-[View repository](REPLACE_WITH_STOCK_PREDICTION_REPOSITORY_URL)
+[View repository](https://github.com/isabelagregio/stock-price-prediction)
+
+---
+
+### 🔐 Cybersecurity Experiments
+
+A collection of practical cybersecurity experiments involving LLMs and Generative AI developed mainly with Python and Jupyter Notebook.
+
+**Technologies:** Python, Jupyter Notebook, and cybersecurity.
+
+[View repository](https://github.com/isabelagregio/Cybersecurity_experiments)
 
 ---
 
@@ -93,37 +91,9 @@ The project includes frontend and backend components, with most of the applicati
 
 **Technologies:** TypeScript, JavaScript, frontend development, and backend development.
 
-[View repository](REPLACE_WITH_ONCOTRACK_REPOSITORY_URL)
+[View repository](https://github.com/isabelagregio/app-development-project)
 
----
 
-### ⚙️ Processor Laboratory
-
-A collection of processor laboratory experiments involving low-level programming, computer architecture, and hardware-related concepts.
-
-**Technologies:** C, C++, Assembly, HTML, and computer architecture.
-
-[View repository](REPLACE_WITH_PROCESSOR_LAB_REPOSITORY_URL)
-
----
-
-### 🤖 Deep Reinforcement Learning
-
-A collection of experiments and notebooks focused on deep reinforcement learning concepts and algorithms.
-
-**Technologies:** Python, Jupyter Notebook, machine learning, and reinforcement learning.
-
-[View repository](REPLACE_WITH_DEEP_RL_REPOSITORY_URL)
-
----
-
-### 🔐 Cybersecurity Experiments
-
-A collection of practical cybersecurity experiments developed mainly with Python and Jupyter Notebook.
-
-**Technologies:** Python, Jupyter Notebook, and cybersecurity.
-
-[View repository](REPLACE_WITH_CYBERSECURITY_REPOSITORY_URL)
 
 ## Explore My Work
 

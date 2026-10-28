@@ -1,32 +1,46 @@
-# Isabela Gregio — AI Engineering Portfolio
+# Isabela Gregio — Portfolio
 
-Responsive personal portfolio built with React and Vite, prepared for GitHub Pages.
+A responsive, desktop-inspired portfolio for AI engineering, software development, and research. Built with React, Vite, and plain CSS; deployed as a static site on GitHub Pages.
 
 ## Run locally
+
+Requires Node.js 22 (Node 20+ is also supported by the dependencies).
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Deploy to GitHub Pages
+## Production build
 
-1. Backup any existing content in `isabelagregio/isabelagregio.github.io` before replacing it.
-2. Copy **all** project files (including `.github/workflows/deploy.yml`) into that repo.
-3. Commit and push to `main`.
-4. Under **Settings → Pages → Build and deployment**, select **GitHub Actions**.
-5. Inspect the **Actions** tab for the deploy status; then visit `https://isabelagregio.github.io`.
+```bash
+npm run build
+npm run preview
+```
 
-The `vite.config.js` has `base: '/'`, suitable for a user-site repository (`username.github.io`). If you deploy to a **project** repository instead, change `base` to `'/repository-name/'`.
+The build output is in `dist/`.
 
-## Content and attribution notes
+## GitHub Pages
 
-- The content and links are embedded in `src/main.jsx` for easy editing.
-- Results for the multi-agent experiments are preliminary and linked to the public repository.
-- The arXiv paper reports *up to* 27 percentage-point fairness improvement; this is a paper-level result, not an average.
-- The Recipe AI classification accuracy is reported in the public repository README.
-- The botnet and multimodal projects are described as academic / work in progress and **do not claim public source code**.
-- Aprix and BTG summaries are high-level, with no private links or confidential metrics.
-- LinkedIn URL should be reviewed before publishing.
+1. Use the repository `isabelagregio/isabelagregio.github.io` (root user-site URL).
+2. Commit all source files, including `.github/workflows/deploy.yml` and `.gitignore`.
+3. In GitHub **Settings → Pages**, set Source to **GitHub Actions**.
+4. Push to `main`. GitHub Actions installs dependencies with `npm install`, builds the site, and publishes `dist/`.
 
-This repository has no backend, API keys, trackers, analytics cookies or paid infrastructure requirements.
+## Editing content
+
+Content and external links are in `src/main.jsx`; visual styling is in `src/styles.css`. The project is intentionally small and does not use a component library.
+
+### Important review notes
+
+- BTG internal platform screenshots and source code are intentionally not linked. Only share approved, non-confidential material.
+- The separate BTG Backend Developer role currently has limited detail. Add accurate dates and a concrete contribution before publication if possible.
+- The Qwen3-VL Kaggle project and botnet project have no verified public repository URLs. Replace the placeholders when code is released.
+- GERAD results are preliminary; the final risk-aware router is still being validated.
+- Ensure the stated professional impact metrics (10+ projects / 70+ people) are approved for public sharing.
+
+## Attribution
+
+Portfolio content based on personal project descriptions, public GitHub READMEs, and the arXiv preprint [Improving Fairness in LLMs Through Testing-Time Adversaries](https://arxiv.org/abs/2505.12100).
+
+For reproducible builds, run `npm install` locally and commit the generated `package-lock.json`; then switch the deployment install step to `npm ci` and add `cache: npm` to `setup-node` if desired.

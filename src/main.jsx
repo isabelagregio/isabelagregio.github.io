@@ -816,6 +816,7 @@ function ProjectsSection() {
 
                             <div className="chips">
                                 <Chip>TensorFlow</Chip>
+                                <Chip>HuggingFace</Chip>
                                 <Chip>MobileNetV2</Chip>
                                 <Chip>scikit-learn</Chip>
                                 <Chip>Streamlit</Chip>
@@ -825,7 +826,9 @@ function ProjectsSection() {
                                 <Out href={GH + '/recipe-ai'}>
                                     Source code
                                 </Out>
-
+                                <Out href="https://huggingface.co/isabelagregio/recipe-ai-ingredient-classifier">
+                                    Deployed Model
+                                </Out>
                                 <Out href="https://recipe-ai-generator.streamlit.app/">
                                     Live demo
                                 </Out>
@@ -877,7 +880,7 @@ function ProjectsSection() {
                             <div className="project-fact">
                                 <strong>66.60%</strong>
                                 <span>
-                                    Kaggle accuracy using QLoRA fine-tuning
+                                    Kaggle Competition accuracy using QLoRA fine-tuning
                                     and uncertainty-guided multi-view inference
                                 </span>
                             </div>
@@ -889,13 +892,12 @@ function ProjectsSection() {
                                 <Chip>Test-time compute</Chip>
                             </div>
 
-                            {/* Original Kaggle link preserved as a comment.
                             <div className="project-links">
-                                <Out href="https://www.kaggle.com/competitions/pcs-3838-pcs-5022-2026-parte-2/overview">
-                                    Kaggle Competition
+                                <Out href="https://github.com/isabelagregio/PCS3838-DeepLearning/tree/main">
+                                    Notebook Code
                                 </Out>
                             </div>
-                            */}
+
                         </div>
                     </article>
                 </div>
@@ -954,7 +956,7 @@ function ProjectsSection() {
 
                             <div className="project-links">
                                 <span className="unavailable">
-                                    Ongoing team project · repository not public
+                                    Ongoing team project
                                 </span>
                             </div>
                         </div>
@@ -1182,6 +1184,9 @@ function ResearchSection() {
 
                             <Out href="https://arxiv.org/abs/2505.12100">
                                 Read the Paper
+                            </Out>
+                            <Out href={GH + '/fairness_experiments'}>
+                                Explore Code
                             </Out>
                         </div>
                     </div>
